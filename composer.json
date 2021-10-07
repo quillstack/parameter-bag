@@ -1,0 +1,31 @@
+{
+    "name": "quillstack/parameter-bag",
+    "description": "Simple key-value storage.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "parameters",
+        "parameter-bag",
+        "php",
+        "php7"
+    ],
+    "homepage": "https://quillstack.org/",
+    "authors": [
+        {
+            "name": "Radek Ziemniewicz",
+            "email": "radek@quillstack.org"
+        }
+    ],
+    "require": {
+        "php": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Quillstack\\ParameterBag\\": "src/"
+        }
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^5.1",
+        "phpunit/phpunit": "^9"
+    }
+}
