@@ -25,7 +25,7 @@ class ParameterBag
 
     public function remove(string $name): bool
     {
-        if (!isset($this->parameters[$name])) {
+        if (!$this->has($name)) {
             return false;
         }
 
