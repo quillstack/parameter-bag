@@ -6,19 +6,21 @@ namespace Quillstack\ParameterBag;
 
 class ParameterBag
 {
-    public function __construct(private array $parameters)
+    public function __construct(private array $parameters = [])
     {
         //
     }
 
-    public function set(string $name, $value): void
+    public function set(string $name, $value): self
     {
         $this->parameters[$name] = $value;
+
+        return $this;
     }
 
     public function has(string $name): bool
     {
-        return isset($this->parameters[$name]);
+        return array_key_exists($name, $this->parameters);
     }
 
     public function remove(string $name): bool
