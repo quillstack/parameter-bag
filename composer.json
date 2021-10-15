@@ -21,11 +21,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Quillstack\\ParameterBag\\": "src/"
+            "Quillstack\\ParameterBag\\": "src/",
+            "Quillstack\\ParameterBag\\Tests\\Unit\\": "tests/unit/",
+            "Quillstack\\ParameterBag\\Tests\\DataProviders\\": "tests/data-providers/"
         }
     },
     "require-dev": {
         "symfony/var-dumper": "^5.1",
-        "phpunit/phpunit": "^9"
+        "quillstack/unit-tests": "^0.0.5"
     }
 }
