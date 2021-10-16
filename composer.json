@@ -7,7 +7,7 @@
         "parameters",
         "parameter-bag",
         "php",
-        "php7"
+        "php8"
     ],
     "homepage": "https://quillstack.org/",
     "authors": [
@@ -22,8 +22,7 @@
     "autoload": {
         "psr-4": {
             "Quillstack\\ParameterBag\\": "src/",
-            "Quillstack\\ParameterBag\\Tests\\Unit\\": "tests/unit/",
-            "Quillstack\\ParameterBag\\Tests\\DataProviders\\": "tests/data-providers/"
+            "Quillstack\\ParameterBag\\Tests\\": "tests/"
         }
     },
     "require-dev": {
