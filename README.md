@@ -1,7 +1,9 @@
 # Quillstack Parameter Bag
 
 [![Build Status](https://app.travis-ci.com/quillstack/parameter-bag.svg?branch=main)](https://app.travis-ci.com/quillstack/parameter-bag)
+[![Downloads](https://img.shields.io/packagist/dt/quillstack/parameter-bag.svg)](https://packagist.org/packages/quillstack/parameter-bag)
 [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=quillstack_parameter-bag&metric=coverage)](https://sonarcloud.io/dashboard?id=quillstack_parameter-bag)
+[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=quillstack_parameter-bag&metric=ncloc)](https://sonarcloud.io/dashboard?id=quillstack_parameter-bag)
 [![StyleCI](https://github.styleci.io/repos/301009689/shield?branch=main)](https://github.styleci.io/repos/301009689?branch=main)
 [![CodeFactor](https://www.codefactor.io/repository/github/quillstack/parameter-bag/badge)](https://www.codefactor.io/repository/github/quillstack/parameter-bag)
 ![Packagist License](https://img.shields.io/packagist/l/quillstack/parameter-bag)
@@ -12,23 +14,17 @@
 
 Simple key-value storage.
 
-### Unit tests
-
-Run tests using a command:
-
-```
-phpdbg -qrr vendor/bin/phpunit
-```
-
-Check the tests coverage:
-
-```
-phpdbg -qrr vendor/bin/phpunit --coverage-html coverage tests
-```
-
-## Docker
+### Docker
 
 ```shell
 $ docker-compose up -d
 $ docker exec -w /var/www/html -it quillstack_parameter-bag sh
+```
+
+### Unit tests
+
+Run tests using a command:
+
+```shell
+$ phpdbg -qrr vendor/bin/unit-tests
 ```
