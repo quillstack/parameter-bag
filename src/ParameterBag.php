@@ -6,12 +6,15 @@ namespace Quillstack\ParameterBag;
 
 class ParameterBag
 {
+    /**
+     * @param array<string, mixed> $parameters
+     */
     public function __construct(private array $parameters = [])
     {
         //
     }
 
-    public function set(string $name, $value): self
+    public function set(string $name, mixed $value): self
     {
         $this->parameters[$name] = $value;
 
@@ -34,7 +37,7 @@ class ParameterBag
         return true;
     }
 
-    public function get(string $name, $default = null): mixed
+    public function get(string $name, mixed $default = null): mixed
     {
         if (!isset($this->parameters[$name])) {
             return $default;
@@ -43,6 +46,9 @@ class ParameterBag
         return $this->parameters[$name];
     }
 
+    /**
+     * @return array<string, mixed>
+     */
     public function all(): array
     {
         return $this->parameters;
