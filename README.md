@@ -1,6 +1,6 @@
 # Quillstack Parameter Bag
 
-[![Build Status](https://app.travis-ci.com/quillstack/parameter-bag.svg?branch=main)](https://app.travis-ci.com/quillstack/parameter-bag)
+[![Tests](https://github.com/quillstack/parameter-bag/actions/workflows/tests.yml/badge.svg)](https://github.com/quillstack/parameter-bag/actions/workflows/tests.yml)
 [![Downloads](https://img.shields.io/packagist/dt/quillstack/parameter-bag.svg)](https://packagist.org/packages/quillstack/parameter-bag)
 [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=quillstack_parameter-bag&metric=coverage)](https://sonarcloud.io/dashboard?id=quillstack_parameter-bag)
 [![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=quillstack_parameter-bag&metric=ncloc)](https://sonarcloud.io/dashboard?id=quillstack_parameter-bag)
