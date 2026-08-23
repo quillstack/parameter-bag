@@ -9,7 +9,7 @@
         "php",
         "php8"
     ],
-    "homepage": "https://quillstack.org/",
+    "homepage": "https://quillstack.org/packages/parameter-bag",
     "authors": [
         {
             "name": "Radek Ziemniewicz",
